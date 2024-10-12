@@ -1,0 +1,117 @@
+@import "../../../styles.css";
+
+.cover-text {
+  text-align: center;
+  padding: 0rem 3rem;
+}
+
+/* a:hover {
+  //color: $theme-color-s;
+  transition: 0.3s ease;
+} */
+
+#cover-image2 {
+  width: 80%;
+  transition: 5s ease;
+}
+.header__content {
+  transition: 30s ease;
+}
+
+.header__content:hover {
+  filter: sepia(25%) contrast(80%) saturate(80%) hue-rotate(320deg);
+}
+@media only screen and (max-width: 280px) {
+  .cover-heading {
+    font-size: 2.25rem;
+    margin-top: -1.5rem;
+  }
+
+  .cover-text {
+    font-size: 0.8rem;
+    padding: 0rem 1.5rem;
+    margin-bottom: -8rem;
+  }
+  #cover-image {
+    padding: 1rem;
+    transform: scale(1.5);
+  }
+}
+@media only screen and (min-width: 281px) and (max-width: 415px) {
+  .cover-heading {
+    font-size: 2.5rem;
+    margin-top: -2rem;
+  }
+
+  .cover-text {
+    font-size: 0.9rem;
+    padding: 0rem 1rem;
+    margin-bottom: -3rem;
+  }
+  #cover-image {
+    margin-top: -3rem;
+    padding: 1rem;
+    transform: scale(1.75);
+  }
+
+  .contact-btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 440px) and (min-height: 700px) and (max-height: 740px) {
+  .cover-heading {
+    font-size: 2.35rem;
+    margin-top: -2rem;
+  }
+
+  .cover-text {
+    font-size: 0.9rem;
+    padding: 0rem 1rem;
+    margin-bottom: -6rem;
+  }
+  #cover-image {
+    margin-top: -5rem;
+    padding: 1rem;
+  }
+
+  .contact-btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 482px) and (min-height: 741px) {
+  .cover-heading {
+    font-size: 2.75rem;
+    margin-top: -2rem;
+  }
+
+  .cover-text {
+    font-size: 1.1rem;
+    padding: 0rem 1rem;
+  }
+  #cover-image {
+    margin-top: -7rem;
+    padding: 1rem;
+    transform: scale(2);
+  }
+
+  .contact-btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 699px) {
+  .header__content--grid {
+    margin-top: -7rem;
+    grid-template-columns: 1fr !important;
+    transform: scale(0.77);
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 890px) {
+  .header__content--grid {
+    margin-top: -10rem;
+    transform: scale(0.75);
+  }
+} ;

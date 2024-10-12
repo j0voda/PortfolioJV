@@ -1,0 +1,206 @@
+@import "../../../styles.css";
+
+/* Skills */
+
+.skills {
+  padding: 3rem;
+  /* //background-color: $theme-color-p; */
+  min-width: 100%;
+  justify-content: center;
+}
+
+#skills-heading {
+  padding: 2rem;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: -4.25rem;
+}
+
+.skills__container {
+  border-radius: 4rem;
+  /* //background-color: $theme-color-f; */
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 0.5rem;
+}
+
+.skills__grid--col {
+  margin-top: 4rem;
+}
+
+.skills-grid-img {
+  opacity: 65%;
+  transition: 0.3s;
+}
+
+.skills-grid-img:hover {
+  opacity: 100%;
+  transform: scale(1.07);
+}
+
+/* media queries */
+
+/* extra small devices like the galaxy fold */
+@media only screen and (max-width: 280px) {
+  /* Skills */
+  #skills-heading {
+    padding-bottom: 2.5rem;
+    margin-bottom: -4rem;
+  }
+
+  .skills__container {
+    margin: -2rem;
+  }
+
+  .skills__grid {
+    grid-template-columns: 1fr !important;
+    padding: 1rem;
+  }
+  .skills__grid--col {
+    margin-top: 0rem;
+  }
+}
+
+/* Small Devices */
+
+@media only screen and (min-width: 281px) and (max-width: 340px) {
+  /* Skills */
+  #skills-heading {
+    margin-bottom: -4.25rem;
+  }
+
+  .skills__container {
+    margin: -2rem;
+  }
+
+  .skills__grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+  }
+  .skills__grid--col {
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 415px) {
+  /* Skills */
+  #skills-heading {
+    margin-bottom: -4.25rem;
+  }
+
+  .skills__container {
+    margin: -2rem;
+  }
+
+  .skills__grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+  }
+  .skills__grid--col {
+    margin-top: 0rem;
+  }
+}
+
+/* Medium Devices */
+
+@media only screen and (min-width: 415px) and (max-width: 641px) {
+  /* Skills */
+
+  .skills {
+    min-width: 100%;
+  }
+
+  .skills__grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+  }
+
+  #skills-heading {
+    font-size: 2.25rem;
+  }
+  .skills__grid--col {
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 769px) {
+  /* Skills */
+  .skills__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  #skills-heading {
+    font-size: 3rem;
+    margin-bottom: -7rem;
+  }
+}
+
+/* Big Screen Devices */
+
+@media only screen and (min-width: 770px) and (max-width: 890px) {
+  /* Skills */
+  .skills__grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  #skills-heading {
+    font-size: 3rem;
+    margin-bottom: -5rem;
+  }
+  .skills__grid--col {
+    margin-top: 2.25rem;
+  }
+}
+
+@media only screen and (min-width: 891px) and (max-width: 1025px) {
+  /* Skills */
+  .skills__grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  #skills-heading {
+    font-size: 3rem;
+    margin-bottom: -5rem;
+  }
+  .skills__grid--col {
+    margin-top: 2.25rem;
+  }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1535px) {
+  /* Skills */
+  .skills__grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  #skills-heading {
+    font-size: 3rem;
+    margin-bottom: -5rem;
+  }
+  .skills__grid--col {
+    margin-top: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1681px) {
+  /* Skills */
+  #skills-heading {
+    font-size: 2.75rem;
+    margin-bottom: -7.75rem;
+  }
+}
+
+@media only screen and (min-width: 1682px) and (max-width: 2175px) {
+  /* Skills */
+  #skills-heading {
+    font-size: 3rem;
+    margin-bottom: -7.75rem;
+  }
+}
+
+@media only screen and (min-width: 2175px) {
+  /* Skills */
+  #skills-heading {
+    font-size: 3.5rem;
+    margin-bottom: -8.25rem;
+  }
+}
